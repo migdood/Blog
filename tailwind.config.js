@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./index.html"],
+  content: ["./index.html"],
   theme: {
     extend: {
       backgroundColor: { "nav-color": "#00957C" },

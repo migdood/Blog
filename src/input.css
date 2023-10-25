@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav{
+  border: 2px solid #ECF0F6;
+  border-radius: 2px;
+  background-color: rgb(0 149 124/ 1);
+  height: 96px;
+  min-height: 100%;
+  width: 100%;
+  top: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
