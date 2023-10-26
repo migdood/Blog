@@ -538,12 +538,13 @@ video {
   position: static;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .m-10 {
   margin: 2.5rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .ml-5 {
@@ -566,8 +567,8 @@ video {
   height: 5rem;
 }
 
-.h-24 {
-  height: 6rem;
+.h-auto {
+  height: auto;
 }
 
 .h-full {
@@ -579,8 +580,8 @@ video {
   min-height: fit-content;
 }
 
-.min-h-full {
-  min-height: 100%;
+.w-16 {
+  width: 4rem;
 }
 
 .w-20 {
@@ -591,20 +592,12 @@ video {
   width: 75%;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .list-none {
   list-style-type: none;
 }
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -623,22 +616,9 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
 .bg-\[\#ECF0F6\] {
   --tw-bg-opacity: 1;
   background-color: rgb(236 240 246 / var(--tw-bg-opacity));
-}
-
-.bg-nav-color {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 149 124 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -723,17 +703,39 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .nav{
   border: 2px solid #ECF0F6;
   border-radius: 2px;
   background-color: rgb(0 149 124/ 1);
   height: 96px;
-  min-height: 100%;
+  max-height: 100%;
   width: 100%;
   top: 0px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.footer{
+  height: 96px;
+  max-height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 0%;
 }
 
 .hover\:bg-slate-100:hover {
